@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration status="WARN">
+	<!--全局参数 -->
+	<Properties>
+		<Property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS}:%-5p %t (%F:%L) - %m%n</Property>
+		<Property name="logDir">logs</Property>
+	</Properties>
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${pattern}" />
+		</Console>
+		<RollingFile name="RollingFileInfo" fileName="${logDir}/info.log" filePattern="${logDir}/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log.gz">
+			<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout pattern="${pattern}" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="80 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<RollingFile name="RollingFileWarn" fileName="${logDir}/warn.log" filePattern="${logDir}/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log">
+			<ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout pattern="${pattern}" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="80 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<RollingFile name="RollingFileError" fileName="${logDir}/error.log" filePattern="${logDir}/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log">
+			<ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+			<PatternLayout pattern="${pattern}" />
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="80 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+
+		<Gelf name="gelf" host="udp:10.199.33.212" port="1560" version="1.1" extractStackTrace="true" filterStackTrace="true" mdcProfiling="true"
+			includeFullMdc="true" maximumMessageSize="8192" originHost="%host{fqdn}" additionalFieldTypes="fieldName1=String,fieldName2=Double,fieldName3=Long">
+			<Field name="level" pattern="%level" />
+			<Field name="message" pattern="%message" />
+			<Field name="applicationName" pattern="integrated-service" />
+		</Gelf>
+	</Appenders>
+
+	<Loggers>
+		<Root level="INFO">
+			<appender-ref ref="Console" />
+			<appender-ref ref="RollingFileInfo" />
+			<appender-ref ref="RollingFileWarn" />
+			<appender-ref ref="RollingFileError" />
+			<appender-ref ref="gelf" />
+		</Root>
+        <logger name="org.springframework" level="INFO" />
+	</Loggers>
+</Configuration>

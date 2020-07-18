@@ -1,0 +1,906 @@
+2020-06-29 14:14:06.027:INFO  restartedMain (SpringApplication.java:597) - The following profiles are active: pro
+2020-06-29 14:14:06.043:INFO  restartedMain (AbstractApplicationContext.java:583) - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e035122: startup date [Mon Jun 29 14:14:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@505fd4c7
+2020-06-29 14:14:06.710:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'restTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=restTemplateConfig; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/qdport/integrated/service/configuration/RestTemplateConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=integratedServiceApplication; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in com.qdport.integrated.service.IntegratedServiceApplication]
+2020-06-29 14:14:06.879:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2020-06-29 14:14:07.036:INFO  restartedMain (GenericScope.java:263) - BeanFactory id=6cac9c1c-05fa-34c0-8271-1bf2a79e260f
+2020-06-29 14:14:07.043:INFO  restartedMain (AutowiredAnnotationBeanPostProcessor.java:155) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-06-29 14:14:07.121:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$726687a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:14:07.218:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5c53e460] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:14:07.526:INFO  restartedMain (TomcatEmbeddedServletContainer.java:89) - Tomcat initialized with port(s): 8995 (http)
+2020-06-29 14:14:07.533:INFO  restartedMain (DirectJDKLog.java:179) - Starting service [Tomcat]
+2020-06-29 14:14:07.534:INFO  restartedMain (DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-29 14:14:07.602:INFO  localhost-startStop-1 (DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+2020-06-29 14:14:07.602:INFO  localhost-startStop-1 (EmbeddedWebApplicationContext.java:276) - Root WebApplicationContext: initialization completed in 1559 ms
+2020-06-29 14:14:07.902:INFO  localhost-startStop-1 (ServletRegistrationBean.java:190) - Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'metricsFilter' to: [/*]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-29 14:14:07.905:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2020-06-29 14:14:07.906:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-06-29 14:14:08.312:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:14:08.315:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:14:08.318:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:14:08.319:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:14:08.545:INFO  restartedMain (RequestMappingHandlerAdapter.java:534) - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e035122: startup date [Mon Jun 29 14:14:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@505fd4c7
+2020-06-29 14:14:08.557:INFO  restartedMain (RequestMappingHandlerAdapter.java:566) - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:14:08.612:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/editNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.editNotice(java.lang.String)
+2020-06-29 14:14:08.613:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/delNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.delNotice(java.lang.String)
+2020-06-29 14:14:08.613:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject com.qdport.integrated.service.controller.NoticeController.login(java.lang.String)
+2020-06-29 14:14:08.614:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-29 14:14:08.615:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-29 14:14:08.652:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:14:08.652:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:14:08.668:INFO  restartedMain (ExceptionHandlerExceptionResolver.java:279) - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:14:08.692:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:14:09.164:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-06-29 14:14:09.165:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.165:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:14:09.165:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-06-29 14:14:09.166:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-06-29 14:14:09.166:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.166:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:14:09.167:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.167:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.168:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2020-06-29 14:14:09.168:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.168:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.168:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.168:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.169:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.169:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-06-29 14:14:09.169:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.170:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:14:09.171:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2020-06-29 14:14:09.171:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:14:09.173:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2020-06-29 14:14:09.174:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:14:09.174:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.175:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-06-29 14:14:09.175:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:14:09.176:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2020-06-29 14:14:09.272:INFO  restartedMain (SpringTemplateLoader.java:61) - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e035122: startup date [Mon Jun 29 14:14:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@505fd4c7] and template loader path [classpath:/templates/]
+2020-06-29 14:14:09.273:INFO  restartedMain (FreeMarkerConfigurer.java:127) - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-06-29 14:14:09.354:INFO  restartedMain (OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-06-29 14:14:10.517:INFO  restartedMain (InetUtils.java:170) - Cannot determine local hostname
+2020-06-29 14:14:10.690:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:14:10.696:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-06-29 14:14:10.697:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-06-29 14:14:10.697:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:14:10.698:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:14:10.698:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-06-29 14:14:10.699:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-06-29 14:14:10.707:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-06-29 14:14:10.714:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-06-29 14:14:10.724:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5e035122,type=ConfigurationPropertiesRebinder]
+2020-06-29 14:14:10.728:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-06-29 14:14:10.728:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:14:10.823:INFO  restartedMain (DefaultLifecycleProcessor.java:343) - Starting beans in phase 0
+2020-06-29 14:14:10.824:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2020-06-29 14:14:10.828:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-06-29 14:14:10.833:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-06-29 14:14:10.834:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-06-29 14:14:10.835:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-06-29 14:14:10.837:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-06-29 14:14:10.838:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-06-29 14:14:10.839:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-06-29 14:14:10.840:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2020-06-29 14:14:10.844:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-06-29 14:14:10.845:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-06-29 14:14:10.846:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-06-29 14:14:10.847:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-06-29 14:14:10.848:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-06-29 14:14:10.860:INFO  restartedMain (DirectJDKLog.java:179) - Initializing ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:14:10.865:INFO  restartedMain (DirectJDKLog.java:179) - Starting ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:14:10.872:INFO  restartedMain (DirectJDKLog.java:179) - Using a shared selector for servlet write/read
+2020-06-29 14:14:10.885:INFO  restartedMain (TomcatEmbeddedServletContainer.java:201) - Tomcat started on port(s): 8995 (http)
+2020-06-29 14:14:10.888:INFO  restartedMain (StartupInfoLogger.java:57) - Started IntegratedServiceApplication in 8.029 seconds (JVM running for 9.032)
+2020-06-29 14:15:34.815:INFO  Thread-27 (AbstractApplicationContext.java:984) - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e035122: startup date [Mon Jun 29 14:14:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@505fd4c7
+2020-06-29 14:15:46.907:INFO  restartedMain (SpringApplication.java:597) - The following profiles are active: pro
+2020-06-29 14:15:46.918:INFO  restartedMain (AbstractApplicationContext.java:583) - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@415c1645: startup date [Mon Jun 29 14:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@271215a6
+2020-06-29 14:15:47.557:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'restTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=restTemplateConfig; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/qdport/integrated/service/configuration/RestTemplateConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=integratedServiceApplication; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in com.qdport.integrated.service.IntegratedServiceApplication]
+2020-06-29 14:15:47.734:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2020-06-29 14:15:47.889:INFO  restartedMain (GenericScope.java:263) - BeanFactory id=a85da80f-eba6-320c-aa01-1e23c7ffb4c2
+2020-06-29 14:15:47.896:INFO  restartedMain (AutowiredAnnotationBeanPostProcessor.java:155) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-06-29 14:15:47.971:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$289f8611] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:15:48.047:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$128ce2cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:15:48.413:INFO  restartedMain (TomcatEmbeddedServletContainer.java:89) - Tomcat initialized with port(s): 8995 (http)
+2020-06-29 14:15:48.419:INFO  restartedMain (DirectJDKLog.java:179) - Starting service [Tomcat]
+2020-06-29 14:15:48.420:INFO  restartedMain (DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-29 14:15:48.481:INFO  localhost-startStop-1 (DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+2020-06-29 14:15:48.481:INFO  localhost-startStop-1 (EmbeddedWebApplicationContext.java:276) - Root WebApplicationContext: initialization completed in 1563 ms
+2020-06-29 14:15:48.796:INFO  localhost-startStop-1 (ServletRegistrationBean.java:190) - Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-29 14:15:48.799:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'metricsFilter' to: [/*]
+2020-06-29 14:15:48.799:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-29 14:15:48.800:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-29 14:15:48.800:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-29 14:15:48.800:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-29 14:15:48.800:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2020-06-29 14:15:48.800:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-06-29 14:15:50.353:INFO  restartedMain (InetUtils.java:170) - Cannot determine local hostname
+2020-06-29 14:15:50.432:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:15:50.432:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:15:50.436:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:15:50.436:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:15:50.661:INFO  restartedMain (RequestMappingHandlerAdapter.java:534) - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@415c1645: startup date [Mon Jun 29 14:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@271215a6
+2020-06-29 14:15:50.669:INFO  restartedMain (RequestMappingHandlerAdapter.java:566) - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:15:50.719:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/delNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.delNotice(java.lang.String)
+2020-06-29 14:15:50.720:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/editNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.editNotice(java.lang.String)
+2020-06-29 14:15:50.720:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject com.qdport.integrated.service.controller.NoticeController.login(java.lang.String)
+2020-06-29 14:15:50.721:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-29 14:15:50.722:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-29 14:15:50.758:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:15:50.758:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:15:50.775:INFO  restartedMain (ExceptionHandlerExceptionResolver.java:279) - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:15:50.797:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:15:51.349:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-06-29 14:15:51.350:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2020-06-29 14:15:51.350:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.351:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:15:51.351:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-06-29 14:15:51.352:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:15:51.352:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2020-06-29 14:15:51.353:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:15:51.353:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.353:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.354:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:15:51.355:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.357:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2020-06-29 14:15:51.357:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:15:51.357:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.357:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2020-06-29 14:15:51.358:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2020-06-29 14:15:51.358:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.358:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.359:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-06-29 14:15:51.359:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.359:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.360:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-06-29 14:15:51.360:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-06-29 14:15:51.360:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.361:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.361:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2020-06-29 14:15:51.362:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:15:51.479:INFO  restartedMain (SpringTemplateLoader.java:61) - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@415c1645: startup date [Mon Jun 29 14:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@271215a6] and template loader path [classpath:/templates/]
+2020-06-29 14:15:51.480:INFO  restartedMain (FreeMarkerConfigurer.java:127) - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-06-29 14:15:51.549:INFO  restartedMain (OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-06-29 14:15:51.732:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:15:51.738:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-06-29 14:15:51.740:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-06-29 14:15:51.741:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:15:51.741:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:15:51.741:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:15:51.742:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-06-29 14:15:51.743:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-06-29 14:15:51.750:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-06-29 14:15:51.758:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2020-06-29 14:15:51.761:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-06-29 14:15:51.771:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=415c1645,type=ConfigurationPropertiesRebinder]
+2020-06-29 14:15:51.774:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-06-29 14:15:51.774:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:15:51.908:INFO  restartedMain (DefaultLifecycleProcessor.java:343) - Starting beans in phase 0
+2020-06-29 14:15:51.924:INFO  restartedMain (InstanceInfoFactory.java:70) - Setting initial instance status as: STARTING
+2020-06-29 14:15:51.949:INFO  restartedMain (DiscoveryClient.java:344) - Initializing Eureka in region us-east-1
+2020-06-29 14:15:51.988:INFO  restartedMain (DiscoveryJerseyProvider.java:70) - Using JSON encoding codec LegacyJacksonJson
+2020-06-29 14:15:51.988:INFO  restartedMain (DiscoveryJerseyProvider.java:71) - Using JSON decoding codec LegacyJacksonJson
+2020-06-29 14:15:52.052:INFO  restartedMain (DiscoveryJerseyProvider.java:80) - Using XML encoding codec XStreamXml
+2020-06-29 14:15:52.053:INFO  restartedMain (DiscoveryJerseyProvider.java:81) - Using XML decoding codec XStreamXml
+2020-06-29 14:15:52.276:INFO  restartedMain (ConfigClusterResolver.java:43) - Resolving eureka endpoints via configuration
+2020-06-29 14:15:52.409:INFO  restartedMain (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:15:52.409:INFO  restartedMain (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:15:52.409:INFO  restartedMain (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:15:52.409:INFO  restartedMain (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:15:52.410:INFO  restartedMain (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:15:52.410:INFO  restartedMain (DiscoveryClient.java:926) - Application version is -1: true
+2020-06-29 14:15:52.410:INFO  restartedMain (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:15:52.517:INFO  restartedMain (DiscoveryClient.java:1018) - The response status is 200
+2020-06-29 14:15:52.518:INFO  restartedMain (DiscoveryClient.java:1244) - Starting heartbeat executor: renew interval is: 30
+2020-06-29 14:15:52.521:INFO  restartedMain (InstanceInfoReplicator.java:59) - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-29 14:15:52.523:INFO  restartedMain (DiscoveryClient.java:425) - Discovery Client initialized at timestamp 1593411352523 with initial instances count: 0
+2020-06-29 14:15:52.536:INFO  restartedMain (EurekaServiceRegistry.java:40) - Registering application integrated-service with eureka with status UP
+2020-06-29 14:15:52.537:INFO  restartedMain (DiscoveryClient.java:1279) - Saw local status change event StatusChangeEvent [timestamp=1593411352537, current=UP, previous=STARTING]
+2020-06-29 14:15:52.538:INFO  DiscoveryClient-InstanceInfoReplicator-0 (DiscoveryClient.java:795) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995: registering service...
+2020-06-29 14:15:52.540:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2020-06-29 14:15:52.545:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-06-29 14:15:52.746:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-06-29 14:15:52.748:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-06-29 14:15:52.749:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-06-29 14:15:52.750:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-06-29 14:15:52.751:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-06-29 14:15:52.753:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-06-29 14:15:52.754:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2020-06-29 14:15:52.758:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-06-29 14:15:52.760:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-06-29 14:15:52.761:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-06-29 14:15:52.762:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-06-29 14:15:52.763:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-06-29 14:15:52.777:INFO  restartedMain (DirectJDKLog.java:179) - Initializing ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:15:52.783:INFO  restartedMain (DirectJDKLog.java:179) - Starting ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:15:52.790:INFO  restartedMain (DirectJDKLog.java:179) - Using a shared selector for servlet write/read
+2020-06-29 14:15:52.794:INFO  DiscoveryClient-InstanceInfoReplicator-0 (DiscoveryClient.java:804) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - registration status: 204
+2020-06-29 14:15:52.802:INFO  restartedMain (TomcatEmbeddedServletContainer.java:201) - Tomcat started on port(s): 8995 (http)
+2020-06-29 14:15:52.803:INFO  restartedMain (EurekaAutoServiceRegistration.java:117) - Updating port to 8995
+2020-06-29 14:15:52.806:INFO  restartedMain (StartupInfoLogger.java:57) - Started IntegratedServiceApplication in 8.864 seconds (JVM running for 9.534)
+2020-06-29 14:16:22.522:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:16:22.523:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:16:22.523:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:16:22.524:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:16:22.524:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:16:22.524:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:926) - Application version is -1: false
+2020-06-29 14:16:22.525:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:16:26.540:ERROR DiscoveryClient-CacheRefreshExecutor-0 (RedirectingEurekaHttpClient.java:91) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 more
+2020-06-29 14:16:26.540:ERROR DiscoveryClient-HeartbeatExecutor-0 (RedirectingEurekaHttpClient.java:91) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 27 more
+2020-06-29 14:16:26.556:WARN  DiscoveryClient-HeartbeatExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:16:26.556:WARN  DiscoveryClient-CacheRefreshExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:16:30.562:ERROR DiscoveryClient-HeartbeatExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 28 more
+2020-06-29 14:16:30.563:WARN  DiscoveryClient-HeartbeatExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:16:30.573:ERROR DiscoveryClient-CacheRefreshExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more
+2020-06-29 14:16:30.574:WARN  DiscoveryClient-CacheRefreshExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:16:30.669:ERROR DiscoveryClient-HeartbeatExecutor-0 (DiscoveryClient.java:824) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:16:30.669:ERROR DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:934) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:926) - Application version is -1: false
+2020-06-29 14:17:00.671:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:17:04.675:ERROR DiscoveryClient-HeartbeatExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 28 more
+2020-06-29 14:17:04.676:WARN  DiscoveryClient-HeartbeatExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:17:04.676:ERROR DiscoveryClient-HeartbeatExecutor-0 (DiscoveryClient.java:824) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:17:04.687:ERROR DiscoveryClient-CacheRefreshExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more
+2020-06-29 14:17:04.688:WARN  DiscoveryClient-CacheRefreshExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:17:04.688:ERROR DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:934) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:17:34.689:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:17:34.690:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:17:34.690:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:17:34.690:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:17:34.691:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:17:34.691:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:926) - Application version is -1: false
+2020-06-29 14:17:34.691:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:17:38.695:ERROR DiscoveryClient-HeartbeatExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 28 more
+2020-06-29 14:17:38.696:WARN  DiscoveryClient-HeartbeatExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:17:38.696:ERROR DiscoveryClient-HeartbeatExecutor-0 (DiscoveryClient.java:824) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:17:38.699:ERROR DiscoveryClient-CacheRefreshExecutor-0 (RedirectingEurekaHttpClient.java:83) - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_11]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_11]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_11]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_11]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_11]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_11]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.3.jar:4.5.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.3.jar:4.5.3]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 31 more
+2020-06-29 14:17:38.699:WARN  DiscoveryClient-CacheRefreshExecutor-0 (RetryableEurekaHttpClient.java:129) - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2020-06-29 14:17:38.700:ERROR DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:934) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1013) ~[eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:927) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1451) [eureka-client-1.6.2.jar:1.6.2]
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1418) [eureka-client-1.6.2.jar:1.6.2]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_11]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_11]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+2020-06-29 14:17:40.017:INFO  Thread-28 (AbstractApplicationContext.java:984) - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@415c1645: startup date [Mon Jun 29 14:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@271215a6
+2020-06-29 14:18:26.412:INFO  restartedMain (SpringApplication.java:597) - The following profiles are active: pro
+2020-06-29 14:18:26.420:INFO  restartedMain (AbstractApplicationContext.java:583) - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc6be6d: startup date [Mon Jun 29 14:18:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36a605af
+2020-06-29 14:18:26.980:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'restTemplate' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=restTemplateConfig; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/qdport/integrated/service/configuration/RestTemplateConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=integratedServiceApplication; factoryMethodName=restTemplate; initMethodName=null; destroyMethodName=(inferred); defined in com.qdport.integrated.service.IntegratedServiceApplication]
+2020-06-29 14:18:27.143:INFO  restartedMain (DefaultListableBeanFactory.java:828) - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2020-06-29 14:18:27.296:INFO  restartedMain (GenericScope.java:263) - BeanFactory id=a85da80f-eba6-320c-aa01-1e23c7ffb4c2
+2020-06-29 14:18:27.304:INFO  restartedMain (AutowiredAnnotationBeanPostProcessor.java:155) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-06-29 14:18:27.378:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$2d807abb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:18:27.453:INFO  restartedMain (PostProcessorRegistrationDelegate.java:327) - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$176dd777] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-29 14:18:27.803:INFO  restartedMain (TomcatEmbeddedServletContainer.java:89) - Tomcat initialized with port(s): 8995 (http)
+2020-06-29 14:18:27.809:INFO  restartedMain (DirectJDKLog.java:179) - Starting service [Tomcat]
+2020-06-29 14:18:27.810:INFO  restartedMain (DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-06-29 14:18:27.876:INFO  localhost-startStop-1 (DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+2020-06-29 14:18:27.876:INFO  localhost-startStop-1 (EmbeddedWebApplicationContext.java:276) - Root WebApplicationContext: initialization completed in 1456 ms
+2020-06-29 14:18:28.193:INFO  localhost-startStop-1 (ServletRegistrationBean.java:190) - Mapping servlet: 'dispatcherServlet' to [/]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'metricsFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'requestContextFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2020-06-29 14:18:28.196:INFO  localhost-startStop-1 (AbstractFilterRegistrationBean.java:258) - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2020-06-29 14:18:29.791:INFO  restartedMain (InetUtils.java:170) - Cannot determine local hostname
+2020-06-29 14:18:29.872:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:18:29.872:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:18:29.876:WARN  restartedMain (URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+2020-06-29 14:18:29.876:INFO  restartedMain (URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-06-29 14:18:30.104:INFO  restartedMain (RequestMappingHandlerAdapter.java:534) - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc6be6d: startup date [Mon Jun 29 14:18:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36a605af
+2020-06-29 14:18:30.111:INFO  restartedMain (RequestMappingHandlerAdapter.java:566) - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:18:30.159:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/delNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.delNotice(java.lang.String)
+2020-06-29 14:18:30.160:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/login],methods=[POST]}" onto public com.alibaba.fastjson.JSONObject com.qdport.integrated.service.controller.NoticeController.login(java.lang.String)
+2020-06-29 14:18:30.160:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/notice/editNotice],methods=[POST]}" onto public com.qdport.integrated.service.util.RestfulResult com.qdport.integrated.service.controller.NoticeController.editNotice(java.lang.String)
+2020-06-29 14:18:30.161:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-06-29 14:18:30.161:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-06-29 14:18:30.196:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:18:30.196:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:18:30.212:INFO  restartedMain (ExceptionHandlerExceptionResolver.java:279) - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2020-06-29 14:18:30.233:INFO  restartedMain (AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-06-29 14:18:30.742:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.743:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.743:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2020-06-29 14:18:30.744:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2020-06-29 14:18:30.744:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.745:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.745:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2020-06-29 14:18:30.745:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.746:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.746:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2020-06-29 14:18:30.746:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.747:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:18:30.747:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2020-06-29 14:18:30.747:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:18:30.748:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2020-06-29 14:18:30.748:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2020-06-29 14:18:30.748:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2020-06-29 14:18:30.749:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:18:30.749:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.749:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2020-06-29 14:18:30.750:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.751:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2020-06-29 14:18:30.751:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2020-06-29 14:18:30.751:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.752:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2020-06-29 14:18:30.753:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2020-06-29 14:18:30.753:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.754:INFO  restartedMain (AbstractHandlerMethodMapping.java:543) - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2020-06-29 14:18:30.834:INFO  restartedMain (SpringTemplateLoader.java:61) - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc6be6d: startup date [Mon Jun 29 14:18:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36a605af] and template loader path [classpath:/templates/]
+2020-06-29 14:18:30.834:INFO  restartedMain (FreeMarkerConfigurer.java:127) - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2020-06-29 14:18:30.895:INFO  restartedMain (OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2020-06-29 14:18:31.070:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:18:31.076:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-06-29 14:18:31.077:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-06-29 14:18:31.078:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:18:31.078:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:18:31.078:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2020-06-29 14:18:31.079:INFO  restartedMain (MBeanExporter.java:916) - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-06-29 14:18:31.080:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-06-29 14:18:31.087:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2020-06-29 14:18:31.093:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2020-06-29 14:18:31.097:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-06-29 14:18:31.110:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7fc6be6d,type=ConfigurationPropertiesRebinder]
+2020-06-29 14:18:31.115:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2020-06-29 14:18:31.116:INFO  restartedMain (MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2020-06-29 14:18:31.239:INFO  restartedMain (DefaultLifecycleProcessor.java:343) - Starting beans in phase 0
+2020-06-29 14:18:31.245:INFO  restartedMain (InstanceInfoFactory.java:70) - Setting initial instance status as: STARTING
+2020-06-29 14:18:31.268:INFO  restartedMain (DiscoveryClient.java:344) - Initializing Eureka in region us-east-1
+2020-06-29 14:18:31.304:INFO  restartedMain (DiscoveryJerseyProvider.java:70) - Using JSON encoding codec LegacyJacksonJson
+2020-06-29 14:18:31.304:INFO  restartedMain (DiscoveryJerseyProvider.java:71) - Using JSON decoding codec LegacyJacksonJson
+2020-06-29 14:18:31.369:INFO  restartedMain (DiscoveryJerseyProvider.java:80) - Using XML encoding codec XStreamXml
+2020-06-29 14:18:31.369:INFO  restartedMain (DiscoveryJerseyProvider.java:81) - Using XML decoding codec XStreamXml
+2020-06-29 14:18:31.563:INFO  restartedMain (ConfigClusterResolver.java:43) - Resolving eureka endpoints via configuration
+2020-06-29 14:18:31.679:INFO  restartedMain (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:18:31.679:INFO  restartedMain (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:18:31.680:INFO  restartedMain (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:18:31.680:INFO  restartedMain (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:18:31.680:INFO  restartedMain (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:18:31.680:INFO  restartedMain (DiscoveryClient.java:926) - Application version is -1: true
+2020-06-29 14:18:31.680:INFO  restartedMain (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:18:31.814:INFO  restartedMain (DiscoveryClient.java:1018) - The response status is 200
+2020-06-29 14:18:31.815:INFO  restartedMain (DiscoveryClient.java:1244) - Starting heartbeat executor: renew interval is: 30
+2020-06-29 14:18:31.817:INFO  restartedMain (InstanceInfoReplicator.java:59) - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-06-29 14:18:31.820:INFO  restartedMain (DiscoveryClient.java:425) - Discovery Client initialized at timestamp 1593411511819 with initial instances count: 0
+2020-06-29 14:18:31.833:INFO  restartedMain (EurekaServiceRegistry.java:40) - Registering application integrated-service with eureka with status UP
+2020-06-29 14:18:31.834:INFO  restartedMain (DiscoveryClient.java:1279) - Saw local status change event StatusChangeEvent [timestamp=1593411511834, current=UP, previous=STARTING]
+2020-06-29 14:18:31.835:INFO  DiscoveryClient-InstanceInfoReplicator-0 (DiscoveryClient.java:795) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995: registering service...
+2020-06-29 14:18:31.837:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2020-06-29 14:18:31.842:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2020-06-29 14:18:31.847:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2020-06-29 14:18:31.849:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2020-06-29 14:18:31.851:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2020-06-29 14:18:31.852:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2020-06-29 14:18:31.854:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2020-06-29 14:18:31.856:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2020-06-29 14:18:31.858:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2020-06-29 14:18:31.862:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2020-06-29 14:18:31.863:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2020-06-29 14:18:31.864:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2020-06-29 14:18:31.865:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2020-06-29 14:18:31.867:INFO  restartedMain (MBeanExporter.java:678) - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2020-06-29 14:18:31.881:INFO  restartedMain (DirectJDKLog.java:179) - Initializing ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:18:31.887:INFO  restartedMain (DirectJDKLog.java:179) - Starting ProtocolHandler ["http-nio-8995"]
+2020-06-29 14:18:31.893:INFO  DiscoveryClient-InstanceInfoReplicator-0 (DiscoveryClient.java:804) - DiscoveryClient_INTEGRATED-SERVICE/localhost:integrated-service:8995 - registration status: 204
+2020-06-29 14:18:31.894:INFO  restartedMain (DirectJDKLog.java:179) - Using a shared selector for servlet write/read
+2020-06-29 14:18:31.905:INFO  restartedMain (TomcatEmbeddedServletContainer.java:201) - Tomcat started on port(s): 8995 (http)
+2020-06-29 14:18:31.906:INFO  restartedMain (EurekaAutoServiceRegistration.java:117) - Updating port to 8995
+2020-06-29 14:18:31.908:INFO  restartedMain (StartupInfoLogger.java:57) - Started IntegratedServiceApplication in 8.455 seconds (JVM running for 9.099)
+2020-06-29 14:18:52.385:INFO  http-nio-8995-exec-1 (DirectJDKLog.java:179) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-06-29 14:18:52.386:INFO  http-nio-8995-exec-1 (FrameworkServlet.java:489) - FrameworkServlet 'dispatcherServlet': initialization started
+2020-06-29 14:18:52.403:INFO  http-nio-8995-exec-1 (FrameworkServlet.java:508) - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2020-06-29 14:19:01.818:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:920) - Disable delta property : false
+2020-06-29 14:19:01.819:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:921) - Single vip registry refresh property : null
+2020-06-29 14:19:01.819:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:922) - Force full registry fetch : false
+2020-06-29 14:19:01.820:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:923) - Application is null : false
+2020-06-29 14:19:01.820:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:924) - Registered Applications size is zero : true
+2020-06-29 14:19:01.820:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:926) - Application version is -1: false
+2020-06-29 14:19:01.820:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:1009) - Getting all instance registry info from the eureka server
+2020-06-29 14:19:01.849:INFO  DiscoveryClient-CacheRefreshExecutor-0 (DiscoveryClient.java:1018) - The response status is 200
+2020-06-29 14:22:09.105:INFO  Thread-28 (AbstractApplicationContext.java:984) - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fc6be6d: startup date [Mon Jun 29 14:18:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36a605af
+2020-06-29 14:22:09.106:INFO  Thread-28 (EurekaServiceRegistry.java:64) - Unregistering application integrated-service with eureka with status DOWN
